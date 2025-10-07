@@ -1,11 +1,13 @@
 package tests;
 
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import pages.SubscriptionPage;
 import pages.components.LoginForm;
 
 
+@Tag("Mvideo")
 public class SubscriptionTests extends TestBase {
 
     SubscriptionPage subscriptionPage = new SubscriptionPage();

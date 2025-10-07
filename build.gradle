@@ -51,3 +51,9 @@ tasks.withType(Test) {
         showStandardStreams = true
     }
 }
+
+task mvideoTests(type: Test) {
+    useJUnitPlatform {
+        includeTags("Mvideo")
+    }
+}
