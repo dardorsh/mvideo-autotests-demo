@@ -19,7 +19,7 @@ public class TestBase {
 
     @BeforeAll
     static void setupAll() {
-        Configuration.remote = System.getProperty("selenoid_url", "https://user1:1234@selenoid.autotests.cloud/wd/hub");
+        Configuration.remote = System.getProperty("selenoid_url");
         Configuration.browser = System.getProperty("browser", "chrome");
         Configuration.browserSize = System.getProperty("resolution", "1980x1080");
         Configuration.browserVersion = System.getProperty("browser_version", "127.0");
