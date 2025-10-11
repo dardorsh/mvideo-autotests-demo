@@ -1,0 +1,17 @@
+{
+  "base": {
+    "project": "Telegram Allure",
+    "environment": "qa.guru",
+    "comment": "@dardorsh, check it",
+    "reportLink": "",
+    "language": "en",
+    "messenger": "telegram",
+    "allureFolder": "build/allure-report/",
+    "enableChart": true
+  },
+  "telegram": {
+    "token": "some token",
+    "chat": "some chat id",
+    "replyTo": ""
+  }
+}
