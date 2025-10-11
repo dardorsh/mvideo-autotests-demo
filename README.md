@@ -75,7 +75,7 @@ Allure-отчет содержит:
 5. Видео выполнения автотеста.
 
 
-### Уведомления в Telegram 
+## Уведомления в Telegram 
 
 После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с отчетом о прогоне тестов.
 
@@ -83,7 +83,7 @@ Allure-отчет содержит:
 <img width="70%" title="Telegram Notifications" src="files/images/Telegram_notif.png">
 </p>
 
-### Видео примера запуска тестов в Selenoid
+## Видео примера запуска тестов в Selenoid
 
 <p align="center">
   <img title="Selenoid Video" src="files/images/video.gif">
