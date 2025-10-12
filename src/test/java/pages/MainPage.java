@@ -36,18 +36,6 @@ public class MainPage {
         return this;
     }
 
-    @Step("Нажимаем на кнопку 'В корзину'")
-    public MainPage clickAddToCartButton() {
-        addToCartButton.shouldBe(Condition.visible).click();
-        return this;
-    }
-
-    @Step("Проверяем, что кнопка в блоке 'Товар дня' отображается с текстом 'В корзине'")
-    public MainPage checkTodayProductIsAddedToCart() {
-        goToCartButton.should(Condition.appear);
-        return this;
-    }
-
     @Step("Нажимаем на кнопку 'Максимум выгоды в подписке М.Комбо'")
     public MainPage clickMcomboButton() {
         openMcomboPageButton.click();

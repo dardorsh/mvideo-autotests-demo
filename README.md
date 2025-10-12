@@ -6,15 +6,15 @@
 ## Используемый стек
 
 <p align="center">
-<img width="6%" title="IntelliJ IDEA" src="files/images/Intelij_IDEA.svg">
-<img width="6%" title="Java" src="files/images/Java.svg">
-<img width="6%" title="Selenide" src="files/images/Selenide.svg">
-<img width="6%" title="JUnit5" src="files/images/JUnit5.svg">
-<img width="6%" title="Gradle" src="files/images/Gradle.svg">
-<img width="6%" title="Selenoid" src="files/images/Selenoid.svg">
-<img width="6%" title="Jenkins" src="files/images/Jenkins.svg">
-<img width="6%" title="Allure Report" src="files/images/Allure.svg">
-<img width="6%" title="Telegram" src="files/images/Telegram.svg">
+<a href="https://www.jetbrains.com/idea/"><img width="6%" title="IntelliJ IDEA" src="files/images/Intelij_IDEA.svg"></a>
+<a href="https://www.java.com/ru/"><img width="6%" title="Java" src="files/images/Java.svg"></a>
+<a href="https://selenide.org/"><img width="6%" title="Selenide" src="files/images/Selenide.svg"></a>
+<a href="https://junit.org/"><img width="6%" title="JUnit5" src="files/images/JUnit5.svg"></a>
+<a href="https://gradle.org/"><img width="6%" title="Gradle" src="files/images/Gradle.svg"></a>
+<a href="https://aerokube.com/selenoid/"><img width="6%" title="Selenoid" src="files/images/Selenoid.svg"></a>
+<a href="https://www.jenkins.io/"><img width="6%" title="Jenkins" src="files/images/Jenkins.svg"></a>
+<a href="https://allurereport.org/"><img width="6%" title="Allure Report" src="files/images/Allure.svg"></a>
+<a href="https://telegram.org/"><img width="6%" title="Telegram" src="files/images/Telegram.svg"></a>
 </p>
 
 
@@ -61,6 +61,8 @@ clean mvideoTests
 - <code>RESOLUTION</code> - разрешение окна браузера
 
 ## Пример Allure-отчета
+
+Доступен по ссылке: https://jenkins.autotests.cloud/job/C37-daryadorsh-demo-mvideo/allure/
 
 <p align="center">
 <img title="Allure Overview" src="files/images/allure_report_example.png">
